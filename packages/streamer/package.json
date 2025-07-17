@@ -4,5 +4,8 @@
   "type": "module",
   "private": true,
   "devDependencies": {},
-  "peerDependencies": {}
+  "peerDependencies": {},
+  "scripts": {
+    "dev": "bun run index.ts"
+  }
 }

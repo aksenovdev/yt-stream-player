@@ -20,7 +20,7 @@
   "scripts": {
     "start:player": "bun --cwd packages/player dev",
     "start:streamer": "bun --cwd packages/streamer dev",
-    "start": "concurrently \\"bun run start:player\\" \\"bun run start:streamer\\""
+    "start": "concurrently \"bun run start:player\" \"bun run start:streamer\""
   },
   "workspaces": [
     "packages/*"
