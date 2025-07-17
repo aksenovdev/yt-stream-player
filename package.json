@@ -10,6 +10,12 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "concurrently": "^9.2.0",
     "ytdl-core": "^4.11.5"
+  },
+  "scripts": {
+    "start:player": "cd packages/player && bun dev",
+    "start:streamer": "cd packages/streamer && bun dev",
+    "start": "concurrently \\"bun run start:player\\" \\"bun run start:streamer\\""
   }
 }
